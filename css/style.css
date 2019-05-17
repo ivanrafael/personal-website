@@ -745,8 +745,8 @@ img.svg{
 	display: inline-block;
 }
 .edina_tm_services_wrap .service_icon .svg{
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	color: #ed2629;
 }
 .edina_tm_services_wrap ul.total .inner_list span{position: absolute;}
@@ -988,6 +988,23 @@ img.svg{
 	        transition: all .3s ease;
 }
 .edina_tm_portfolio_list .list_inner .definition_portfolio .first a:hover{color: #ed2629;}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .second a::before {
+  content: '\f1b4 :';
+  font-family: xcon;
+  color: inherit;
+  padding-right: 3px;
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .second a{
+  text-decoration: none;
+	color: #eee;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.edina_tm_portfolio_list .list_inner .definition_portfolio .second a:hover{color: #ed2629;}
 
 /*---------------------------------------------------*/
 /*	09) EDINA TESTIMONIALS
